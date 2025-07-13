@@ -6,7 +6,7 @@ A Golang implementation of [RFC 4226](https://datatracker.ietf.org/doc/html/rfc4
 ## Install
 Requires >=1.24.2
 ```sh
-go get github.com/binary141/hotp-go-rfc@v1.0.0
+go get github.com/binary141/hotp-rfc-go@v1.0.0
 ```
 ## Usage
 ```golang
@@ -15,7 +15,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/binary141/hotp-go-rfc"
+	"github.com/binary141/hotp-rfc-go"
 )
 
 func main() {
