@@ -23,7 +23,7 @@ func main() {
 	var counter uint64 = 1
 	digits := 6
 
-	fmt.Println(hotp.Hotp(string(secret), counter+2, digits))
+	fmt.Println(hotp.Hotp(secret, counter, digits))
 }
 ```
 
